@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#191A1F"
+    tools:context=".PlaylistPopup">
+
+    <EditText
+        android:id="@+id/editTextPlaylistName"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:hint="Playlist Name"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="#999999" />
+    <Button
+        android:id="@+id/btnEkle"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/editTextPlaylistName"
+        android:onClick="addNewPlaylist"
+        android:backgroundTint="#7960E5"
+        android:text="Ekle" />
+
+</LinearLayout>
